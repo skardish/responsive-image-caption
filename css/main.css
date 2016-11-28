@@ -10,8 +10,34 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: Georgia 100%/1.5 serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  background-color: #e2e2e2;
+}
+
+figcaption {
+  padding: 1rem;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Denk One", sans-serif;
+}
+
+p {
+
 }
