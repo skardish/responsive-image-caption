@@ -33,11 +33,12 @@ figure {
 
 figcaption {
   width: 100%;
-  padding: .50rem;
+  padding: .5rem;
 }
 
 h2 {
   font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 38em) {
