@@ -21,10 +21,6 @@ body {
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
 .img-flex {
   display: block;
   width: 100%;
@@ -32,6 +28,7 @@ img {
 
 figure {
   background-color: #e2e2e2;
+  margin: 0;
 }
 
 figcaption {
@@ -50,14 +47,21 @@ h2 {
     line-height: 1.4;
   }
 
-  img {
+  figure {
     position: relative;
+    overflow: hidden;
     width: 100%;
   }
 
   figcaption {
     position: absolute;
+    overflow: hidden;
     width: 60%;
+    bottom: 1em;
+    right: 1em;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    border-radius: 5px;
   }
 
 }
